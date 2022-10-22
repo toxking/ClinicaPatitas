@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: open sans;
+    min-height: 600px;
+    padding: 86px 0;
+    background-image: linear-gradient(to top, #8a96ad 0%, #1d63c0 100%);
+    background-color: #a3bded;
+    display: flex;
+    background-repeat: no-repeat;
+   
+}
+
+.inicio{
+    max-width: 1000px;
+    margin: auto;
+    width: 90%;
+    background-color: rgb(145, 181, 214);
+    overflow: hidden;
+    padding: .7em;
+    background-image: linear-gradient(to left rgba(255, 255, 255, 0.489), rgba(255, 255, 255, 0.372));
+    border-radius: 1em;
+
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: .6em;
+
+    animation: mostrar 1.5s ease-in-out;
+}
+
+@keyframes mostrar{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.inicio_figura{
+    overflow: hidden;
+    border-radius: 1em;
+    display: flex;
+    background-color: #90b8df;
+}
+
+
+.inicio_img{
+    /*width: 80%;
+    height: 80%;*/
+    margin: auto;
+    max-width: 60vw;
+    border-radius: 10%;
+
+}
+
+.inicio_contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 3em .7em;
+    text-align: center;
+
+}
+
+.inicio_form{
+    display: grid;
+    justify-items: center;
+    gap: 1.5em;
+}
+
+.inicio_input{
+    width: 80%;
+    max-width: 500px;
+    outline: none;
+    border: none;
+    padding: 1em;
+    font: inherit;
+    border-radius: .6em;
+    margin-bottom: 10px;
+
+}
+
+.inicio_input--send{
+    background-color: #1bcad7;
+    color: aliceblue;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.inicio_titulo{
+    font-size: 2.3em;
+
+}
+
+.inicio_p{
+    margin: .3em 0;
+}
+
+.inicio_icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+.inicio_social{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-auto-columns: max-content;
+    gap: 10px;    
+}
+
+.inicio_link{
+    border: 1px solid rgb(22, 118, 201);
+    border-radius: 10px;
+    padding: .6em 1.5em;
+    }
+
+.inicio_link:hover{
+    background-color: rgb(50, 92, 129);
+}
+
+.item{
+    display: grid;
+    justify-content: center;
+}

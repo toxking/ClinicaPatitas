@@ -1,0 +1,25 @@
+*{
+    background-color: hsl(189, 47%, 66%);
+    font-family: open  sans;
+}
+
+body{
+    font-family: open  sans;
+}
+.titulo{
+   margin-left: 40%; 
+    
+    
+}
+.mapa{
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.final{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0 0 0;
+    color: rgb(254, 253, 253);
+}

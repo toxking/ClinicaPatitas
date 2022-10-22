@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="styleform.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="inicio">
+
+        <figure class="inicio_figura">
+            <img src="img8.jpg" alt="" class="inicio_img">
+        </figure>
+
+        <div class="inicio_contacto">
+
+            <h2 class="inicio_titulo"> Hola! de Nuevo</h2>
+            <p class="inicio_p">Agende su cita con nosotros</p>
+
+            <form action="https://formspree.io/f/mqkjddny" method="post">
+
+                <input name="name" required type="text" placeholder="ingrese su nombre" class="inicio_input">
+        
+                        <input name="email" type="text" placeholder="ingrese su correo" class="inicio_input">
+        
+                        <input type="text" placeholder="ingrese su telefono" class="inicio_input">
+        
+        
+                        <p>Seleccione su servicio:</p><br>
+                        <div class="item">
+                        <label for="">Peluqueria</label>
+                        <input type="checkbox"> <br> 
+                        <label for="">examen de rutina</label>
+                        <input type="checkbox"> <br>
+                        <label for="">diagnosticos</label>
+                        <input type="checkbox"> <br>
+                        <label for="">Veterinaria</label>
+                        <input type="checkbox"> <br>
+                        </div>
+        
+                        <label for="">Fecha</label>
+                        <input type="date" size="5">
+        
+                        <input type="submit" value="agendar" class="inicio_input inicio_input--send">
+        
+                        <a href="cego1598@gmail.com"></a>
+                    
+            </form>
+            
+            <p class="inicio_login"> o agende con:</p>
+            
+            <article class="inicio_social">
+
+                <a href="https://accounts.google.com/AccountChooser/identifier?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser" class="inicio_link">
+                    <img src="assets/gmail.svg" alt="" class="inicio_icon">
+                </a>
+
+                <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjY2NDYwNjMwLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D" class="inicio_link">
+                    <img src="assets/facebook.svg" alt="" class="inicio_icon">
+                </a>
+
+                <a href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsignup%3Fref_cta%3DSign%2Bup%26ref_loc%3Dheader%2Blogged%2Bout%26ref_page%3D%252F%26source%3Dheader-home" class="inicio_link">
+                    <img src="assets/github-icon.svg" alt="" class="inicio_icon">
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+   
+    
+</body>
+</html>

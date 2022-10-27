@@ -2,15 +2,14 @@
     background-color: hsl(189, 47%, 66%);
     font-family: open  sans;
 }
-
+nav a>img{
+    width: 40px;
+    align-items: center;
+}
 body{
     font-family: open  sans;
 }
-.titulo{
-   margin-left: 40%; 
-    
-    
-}
+
 .mapa{
     border-radius: 50px;
     display: flex;

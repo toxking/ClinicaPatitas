@@ -11,7 +11,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <header>
+        <nav>
+            <a href="index.html">
+            <img src="assets/veterinario.png"></a>
+                      
+            <a href="iframe.html">ubicacion</a>
+        
+        </nav>
+        <br>
+    
     <section class="inicio">
 
         <figure class="inicio_figura">
@@ -24,12 +33,12 @@
             <p class="inicio_p">Agende su cita con nosotros</p>
 
             <form action="https://formspree.io/f/mqkjddny" method="post">
-
-                <input name="name" required type="text" placeholder="ingrese su nombre" class="inicio_input">
+            
+                <input name="name" required type="text" placeholder="ingrese su nombre" maxlength="10" class="inicio_input">
         
-                        <input name="email" type="text" placeholder="ingrese su correo" class="inicio_input">
+                        <input name="email" type="email" placeholder="ingrese su Gmail" pattern=".+@gmail\.com" class="inicio_input">
         
-                        <input type="text" placeholder="ingrese su telefono" class="inicio_input">
+                        <input type="number" placeholder="ingrese su telefono" min="1000000000" max="9999999999"  class="inicio_input">
         
         
                         <p>Seleccione su servicio:</p><br>
@@ -50,7 +59,7 @@
                         <input type="submit" value="agendar" class="inicio_input inicio_input--send">
         
                         <a href="cego1598@gmail.com"></a>
-                    
+       
             </form>
             
             <p class="inicio_login"> o agende con:</p>

@@ -4,12 +4,27 @@
 }
 nav a>img{
     width: 40px;
-    align-items: center;
+    
 }
-body{
-    font-family: open  sans;
+nav > a{
+    color: rgb(42, 42, 43);
+    font-weight: 300;
+    text-decoration:none;
+    margin-right: 10px;
 }
 
+
+body{
+    font-family: open  sans;
+   
+}
+.fixed{
+    position: fixed;
+    z-index: 1000;
+
+    
+   
+}
 .mapa{
     border-radius: 50px;
     display: flex;
